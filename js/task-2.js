@@ -1,5 +1,5 @@
 function makeArray(firstArray, secondArray, maxLength){
-    const couple = firstArray.concat(secondArray);
+    const couple = firstArray.concat(secondArray).slice(0, maxLength);
     return`${couple}`
 }
 
